@@ -1,0 +1,387 @@
+ *
+{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------- Condiçoes de tela--------------- */
+@media(min-width: 400px){
+    /* fazer depois os media queries */
+}
+
+
+/*----------------- inicio navbar ---------------*/
+a 
+{
+    text-decoration: none;
+    /*color: black; */
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+ul
+{
+    list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+label img
+{
+    width: 40px;
+    margin-top: -10px;
+}
+
+nav
+{
+    background-color: #2f8f67; 
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    position: absolute;
+    transition: all .7s;
+    z-index: 1;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(200px);
+}
+
+ul
+{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+a
+{
+    display: block;
+    padding: 15px 5px;
+    color: wheat;
+}
+
+a:hover
+{
+    background-color:#1a2120;
+   /* color: black; */
+}
+
+label
+{
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+/*--------------------  meio -----------------*/
+
+#corpo
+{
+   /* background-color: #e8a531; */
+  background-color: #08c6a2;
+    height: 90%; /* 610px; */
+    width: 100%; /* 1304px; */
+}
+
+.conteiner  /* centralizar  */
+{
+    position: relative;
+    height: 80vh;
+   /* background-color: #47438a; */
+}
+
+.elemento
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.elemento h1
+{
+    font-family: 'Courier New', Courier, monospace;
+   /* text-shadow: 1px 1px white, -1px -1px #444 sombra no nome */
+}
+
+.conteiner img
+{
+    position: relative;
+    right:-10%; 
+    left: 46;
+    top: 0%;
+    top: 90;
+}
+
+ /*------------------- final do site -----------*/
+
+ .nome_copy
+ {
+    font-family: 'verdana';
+    margin-top: 1px;
+ }
+
+.rodape_final
+{
+    background-color: #27cf9a;
+    display: flex;
+    justify-content: space-around;
+    padding: 21px;
+    text-align: center;
+    width: 33,30%; 
+    
+}
+
+.contato a 
+{
+  font-size: 35px;
+  background-color: #27cf9a; /* para reesolver o bug que fica preto*/
+  color: black;
+  width: 55px;
+  height: 34px;
+  float: left; 
+  margin-left: 20px; 
+  margin-top: -13px;
+}
+
+
+.redes_sociais:hover
+{
+    cursor: pointer;
+    transform: translateY(-11px);
+    box-shadow: 4px 10px 3px 1px #000000; 
+}
+
+
+/*-----------------------------------FORMATAÇÃO DA PAGINA SOBRE-----------------------------*/
+
+/*----------------- BARRA DE NAVEGAÇÃO DA PAGINA SOBRE---------------*/
+
+a 
+{
+    text-decoration: none;
+    /*color: black; */
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+ul
+{
+    list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+label img
+{
+    width: 40px;
+    margin-top: -10px;
+}
+
+nav
+{
+    background-color: #2f8f67; 
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    position: absolute;
+    transition: all .7s;
+    z-index: 1;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(200px);
+}
+
+ul
+{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+a
+{
+    display: block;
+    padding: 15px 5px;
+    color: wheat;
+}
+
+a:hover
+{
+    background-color:#1a2120;
+   /* color: black; */
+}
+
+label
+{
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+/*------------------------ TEXTO DA PAGINA SOBRE -------------------*/
+
+.texto
+{
+  font-family: 'Chelsea Market', cursive;
+  margin-bottom: 1.3em;
+  text-indent: 1.4em;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.conteiner
+{
+    height: 598px;
+}
+/*------------------------------ FOOTER DA PAGINA SOBRE---------------- */
+
+.contato a /* para reesolver o bug que fica preto*/
+{
+    background-color: #27cf9a;
+}
+
+.nome_copy
+{
+   font-family: 'verdana';
+   margin-top: 1px;
+}
+
+/*------------------------------------------PAGINA EDUCAÇÃO-------------------------------------*/
+
+/*--------------------------- BARRA DE NAVEGAÇÃO DA PAGINA EDUCAÇÃO--------------------------*/
+a 
+{
+    text-decoration: none;
+    /*color: black; */
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+ul
+{
+    list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+label img
+{
+    width: 40px;
+    margin-top: -10px;
+}
+
+nav
+{
+    background-color: #2f8f67; 
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    position: absolute;
+    transition: all .7s;
+    z-index: 1;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(200px);
+}
+
+ul
+{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+a
+{
+    display: block;
+    padding: 15px 5px;
+    color: wheat;
+}
+
+a:hover
+{
+    background-color:#1a2120;
+   /* color: black; */
+}
+
+label
+{
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* -----------------------------MEIO DA PAGINA DE EDUCAÇÃO----------------------------*/
+.texto
+{
+  font-family: 'Chelsea Market', cursive;
+  margin-bottom: 1.3em;
+  text-indent: 1.4em;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.conteiner
+{
+    height: 598px;
+}
+
+/*---------------------------------------------FOOTER DA PAGINA EDUCAÇÃO-------------------------*/
+
+.contato a /* para reesolver o bug que fica preto*/
+{
+    background-color: #27cf9a;
+}
+
+
+/*-------------------------------------------PAGINA PROJETOS--------------------------------------*/
+
+/*-------------------------------------------PAGINA FINAL  PROJETOS--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
